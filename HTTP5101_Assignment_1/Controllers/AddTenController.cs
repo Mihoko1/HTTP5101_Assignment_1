@@ -18,7 +18,7 @@ namespace HTTP5101_Assignment_1.Controllers
 
         public int Get(int id)
         {
-            var addValue = id + 10;
+            int addValue = id + 10;
             return addValue;
         }
     }

@@ -18,7 +18,7 @@ namespace HTTP5101_Assignment_1.Controllers
 
         public int Get(int id)
         {
-            var multipleValue = id * id;
+            int multipleValue = id * id;
             return multipleValue;
         }
     }

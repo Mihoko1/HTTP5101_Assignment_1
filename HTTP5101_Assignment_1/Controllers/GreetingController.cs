@@ -23,7 +23,7 @@ namespace HTTP5101_Assignment_1.Controllers
         // GET api/Greeting/id
         public string Get(int id)
         {
-            var message = "Greeting to " + id + " people!";
+            string message = "Greetings to " + id + " people!";
             return message;
         }
     }
